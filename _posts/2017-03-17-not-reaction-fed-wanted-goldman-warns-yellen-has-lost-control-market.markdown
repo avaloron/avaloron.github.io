@@ -3,8 +3,11 @@ layout: post
 title:  “这不是美联储想要的”高盛警告耶伦已失去对市场的控制
 date:   2017-03-17 20:52:59 +0800
 categories: 翻译
-author: "Tyler Durden ／ ZeroHedge (编译: 吴澄剑)"
+author: "Tyler Durden ／ ZeroHedge.com (编译: 吴澄剑)"
+origin_url: http://zerohedge.com/news/2017-03-16/not-reaction-fed-wanted-goldman-warns-yellen-has-lost-control-market
 ---
+
+原文链接 ["This Is Not The Reaction The Fed Wanted": Goldman Warns Yellen Has Lost Control Of The Market](http://zerohedge.com/news/2017-03-16/not-reaction-fed-wanted-goldman-warns-yellen-has-lost-control-market)
 
 随着耶伦的“鸽派”加息，全球股市飙升，股票期货大幅高开带动纳指接近6000点。而高盛的首席经济学家 Jan Hatzius 的警告却引起了我们的注意：市场过分解读了联储的声明，这种“鸽派惊喜”的反应完全不是美联储所期望的。
 
