@@ -5,15 +5,37 @@ layout: page
 <div class="home">
 
   <h1 class="page-heading">投资分析</h1>
-
+  <br>
+  <br>
+  <br>
+  
   <ul class="post-list">
     {% for post in site.posts %}
+	
+	<div class="card">
+	  <div class="card-block">
+		<h2 class="card-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</h4>
+		<p class="card-text">{{ post.date | date: "%b %-d, %Y" }}</p>
+		<a href="{{ post.url | relative_url }}" class="btn btn-outline-info">点击阅读</a>
+	  </div>
+	</div>
+	
+	
+	
+	
+	
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
+	  
+	    <h2>
           <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
         </h2>
+	  
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+		
+		
+
+
+		
       </li>
     {% endfor %}
   </ul>
