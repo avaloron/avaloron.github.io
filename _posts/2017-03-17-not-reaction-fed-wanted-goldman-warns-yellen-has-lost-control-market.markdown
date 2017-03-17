@@ -35,3 +35,5 @@ origin_url: http://zerohedge.com/news/2017-03-16/not-reaction-fed-wanted-goldman
 
 当然，如果2017年的头两个，三个或四个加息的都如此次。充斥着数万亿的过剩流动性的金融市场，将简单地采取美联储的下一个紧缩作为宽松的指标，并将风险资产推至甚至更离谱的高点。
 
+
+
