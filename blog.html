@@ -15,8 +15,8 @@ layout: page
 	<div class="card">
 	  <div class="card-block">
 		<h2 class="card-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</h4>
-		<p class="card-text">{{ post.date | date: "%b %-d, %Y" }} by {{ page.author }}</p>
-		<a href="{{ post.url | relative_url }}" class="btn btn-outline-info">{{ page.author }}</a>
+		<p class="card-text">{{ post.date | date: "%b %-d, %Y" }} by {{ post.author}}</p>
+		<a href="{{ post.url | relative_url }}" class="btn btn-outline-info">点击阅读</a>
 	  </div>
 	</div>
 	<br>
