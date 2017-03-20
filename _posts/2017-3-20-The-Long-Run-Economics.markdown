@@ -8,6 +8,9 @@ Chinese translator: 何绪纲
 tags: 长期经济发展 债务 政府违约 GDP 货币贬值 经济衰退 经济刺激
 ---
 
+原文链接 [The Long Run Economics Of Debt Based Stimulus](http://www.zerohedge.com/news/2017-03-18/long-run-economics-debt-based-stimulus)
+
+
 ![](http://hexugang.us-ca.ufileos.com/davis_id_3-1.jpg)
 
 
