@@ -8,11 +8,22 @@
 * 提交pull request, @ 相关编辑来审稿
 * 通过审核后，你的文章便收录在Avaloron的官方网站了。
 
-# 网站开发流程
+# 网站开发流程 development
 
 网站开发请在dev分支内进行，我们会定期merge稳定版本到master
 
+### system requirement
+* ruby 2.0+
 
+### install dependences
+```
+gem install bundler # if you haven't done so
+bundle install
+```
+### bring up your local web 
+```
+bundle exec jekyll server
+```
 # 版权
 
 每位作者保留自己作品的所有版权
