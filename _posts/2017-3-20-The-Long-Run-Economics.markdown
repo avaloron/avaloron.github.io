@@ -41,8 +41,7 @@ Chinese translator: 何绪纲
 ![](http://hexugang.us-ca.ufileos.com/The-Long-Run-Economics-Of-Debt-Based-Stimulus/12UP-Keynes-facebookJumbo-1024x536.jpg?UCloudPublicKey=rUAta81iLjKyrHEvAccnSa%2FDQcZV8GHr34qqMegTP0%2B%2F7ZT22QrBfQ%3D%3D&Signature=pmVl0ICxmaeHkC6oDbAwsg%2FbBrE%3D&Expires=1490034351)
 *J.M. Keynes 是肯定已经死了，而我们还活着并且正是他理论的受害者。Keynes经常被描绘成正在阅读书籍，毋庸置疑都是些错误的书。那些经常说“他不是这个意思”的人应该好好读读这个人到底写了些什么。*
 
-
-当然，通过借钱来促成一个国家的繁荣会导致无法回避的结果。短期会造成迅速致富的假象；长期，这种假象必将被残酷事实所取代。
+当然，通过借钱来促成一个国家的繁荣会导致无法回避的结果。短期会造成迅速致富的假象；长期，这种假象必将被残酷事实揭穿。
 
 上周，我们在墨西哥城进行了实地家庭采访。我们特别留意了一个政府过度举债，然后又试图通过贬值货币来减轻债务负担所带来的慢性影响。
 
@@ -53,7 +52,6 @@ Chinese translator: 何绪纲
 
 ![](http://hexugang.us-ca.ufileos.com/The-Long-Run-Economics-Of-Debt-Based-Stimulus/Churreria_ElMoro-1024x428.jpg?UCloudPublicKey=rUAta81iLjKyrHEvAccnSa%2FDQcZV8GHr34qqMegTP0%2B%2F7ZT22QrBfQ%3D%3D&Signature=SKh2ZZMrhXPqHLp8lZFUfmewsNo%3D&Expires=1490034444)
 *位于墨西哥城El Moro的专卖店。*
-
 
 然而，离开市中心不远的几个街区却明白无误提醒你这里经济恶化的状况。很多住宅区与商业区和工业区不同程度的混合在一起，绵延若干英里穿越这个墨西哥的高海拔峡谷。看上去，建筑物都有了50~60年的历史，可以想见他们曾今干净整洁，维护有加。到如今，崩塌的水泥和外露的建筑钢筋则成为了居民区的普遍场景。
 
