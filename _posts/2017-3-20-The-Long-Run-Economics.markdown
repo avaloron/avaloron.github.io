@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "债务刺激下的长期经济形势"
-date:   2017-3-20 20:52:59 UTC-0400
+date:   2017-3-20 20:52:59 -0400
 categories: 翻译
 author: Tyler Durden
 Chinese translator: 何绪纲
