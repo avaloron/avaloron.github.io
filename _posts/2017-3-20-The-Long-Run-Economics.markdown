@@ -7,7 +7,7 @@ author: Tyler Durden
 Chinese translator: 何绪纲
 ---
 
-![IMAGE ALT TEXT HERE](http://hexugang.us-ca.ufileos.com/The-Long-Run-Economics-Of-Debt-Based-Stimulus/davis_id_3-1.jpg?UCloudPublicKey=rUAta81iLjKyrHEvAccnSa%2FDQcZV8GHr34qqMegTP0%2B%2F7ZT22QrBfQ%3D%3D&Signature=fOWqUSuqxADcf07rJ7Bj0aagd%2Fs%3D&Expires=1490033273)
+![](http://hexugang.us-ca.ufileos.com/davis_id_3-1.jpg)
 
 
 **增长vs飙升**
