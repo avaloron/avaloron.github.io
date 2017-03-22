@@ -3,8 +3,7 @@ layout: post
 title:  "债务刺激下的长期经济形势"
 date:   2017-3-20 20:52:59 -0400
 categories: 翻译
-author: Tyler Durden
-Chinese translator: 何绪纲
+author: "Tyler Durden ／ ZeroHedge.com (编译: 何绪纲)"
 tags: 长期经济发展 债务 政府违约 GDP 货币贬值 经济衰退 经济刺激
 ---
 
