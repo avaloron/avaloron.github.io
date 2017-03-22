@@ -29,6 +29,7 @@ bundle exec jekyll server
 ### preview all your changes (debug) locally
 
 open local web browser (i.e. Chrome, Safari and Firefox, etc.)
+
 insert "http://localhost:4000/" to the browser
 
 

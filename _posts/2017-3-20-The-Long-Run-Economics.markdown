@@ -8,6 +8,8 @@ Chinese translator: 何绪纲
 tags: 长期经济发展 债务 政府违约 GDP 货币贬值 经济衰退 经济刺激
 ---
 
+通过加大政府财政支出来刺激经济已成为各国争相采用的做法。但是这种做法对一国经济长期的影响却并不为人熟知。本文试图通过详实的数据和对墨西哥的实地考察来回答这个问题，值得我们认真思考。
+
 原文链接 [The Long Run Economics Of Debt Based Stimulus](http://www.zerohedge.com/news/2017-03-18/long-run-economics-debt-based-stimulus)
 
 
