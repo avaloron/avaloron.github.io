@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="yllN1-yI9Sea6VZrMGMiGXA-Nf7fpL_z0yXO5E9CFmw" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="雅文龙金融
+">
+    <meta name="keyword"  content="">
+
+    <!--Open Graph Title-->
+    <meta content="雅闻龙" property="og:site_name">
+    
+      <meta content="风险论（三）" property="og:title">
+    
+    
+      <meta content="article" property="og:type">
+    
+    
+      <meta content="雅文龙金融
+" property="og:description">
+    
+    
+      <meta content="http://localhost:4000/%E5%8E%9F%E5%88%9B/2017/01/17/risk-theory-III.html" property="og:url">
+    
+    
+      <meta content="2017-01-17T07:52:59-05:00" property="article:published_time">
+      <meta content="http://localhost:4000/about/" property="article:author">
+    
+    
+      <meta content="/img/logo-high-resolution.png" property="og:image">
+    
+    
+      
+      <meta content="原创" property="article:section">
+      
+    
+    
+      
+    
+
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <title>风险论（三） - </title>
+
+    <link rel="canonical" href="http://localhost:4000/%E5%8E%9F%E5%88%9B/2017/01/17/risk-theory-III.html">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container partition">
+<nav class="navbar navbar-toggleable-md navbar-light">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/">雅闻龙</a>
+  <a class="navbar-brand" href="/"><img src="http://boostss.nos-eastchina1.126.net/ava%2Flogo.png"></a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav nav-pills ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">首页</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog">博客</a>
+      </li>
+	        <li class="nav-item">
+        <a class="nav-link" href="/about">关于我们</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="/download">资料下载</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+       <div class="row" style="margin-top: 2em">
+        <div class="container page-container">
+
+           <h1 class="page-title">风险论（三）</h1>
+
+          <p>让我们接着讨论风险量化指标。CVaR （Conditional Value at Risk），条件风险值，或则平均尾端跌幅。他是特指在PnL分布里，最左端某个百分数以下的亏损均值。为什么尾端的跌幅重要呢？</p>
+
+<p>想象一下，一个人从高处往下跳。往下跳0.1米，正常人都能做到；往下跳1米，也许问题不大；跳2米，非运动员就得小心了，别伤到脚踝；跳5米，除非下面有气垫，切勿轻易尝试；跳20米，能生还的几率已经不高了。。。</p>
+
+<p>是的，尾端跌幅足够大，只一次投资失败，就玩完了。但是它不同于VaR（参看《风险论（二）》），它拥有更好的统计性质，能更准确的描述跌损预期。我们来看另一个例子。</p>
+
+<p>假设，两只不同的股票，尾端跌损都包含三次极端情形。A股票对应的跌损为：-10%，-15%，-20%；B股票为：-10%。-12%，-40%。如果按照VaR的算法，我们都只取最左端值-10%，两只股票的风险是一样的，当然事情绝非如此。那么，如果我们看第二个值呢？那么A股票的风险要高于B股票：-15% vs. -12%。 依然不够合理，因为我们早就看到B股票的最大跌幅是无法接受的（麻烦自行假设一下，从20米高处往下跳的情形）。</p>
+
+<p>所以，VaR的计算方法并不能准确，稳定的测量风险，且很难捕捉到致命跌幅；CVaR则不同，它计算尾端跌幅的平均值。在上面的例子中，A股票的CVaR是15%，而B股票是20.67%，所以B股票风险大于A股票。这符合我们的经验认识，也从定量上确定了风险数值。</p>
+
+<p>同时必须指出，CVaR还具有良好的数学性质。在量化策略开发过程中，当我们需要优化配资组合时，特别需要考虑优化函数的凸性，这使得CVaR作为风险代理值具有不可替代的作用。我们的指标算法就合理地使用了CVaR作为量化风险值，在优化配资分布时将最可能的跌幅考虑进来，保证了算法对于风险的抵抗力和最后投资成功的胜率。</p>
+
+
+          </div>
+    </div>
+<!-- Footer -->
+<footer class="mb-autos">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <a class="navbar-brand" href="#">Avaloron 雅闻龙</a>
+                <p class="copyright text-muted">
+                    &copy; 2017 雅闻龙
+                </p>
+            </div>
+
+            <div class="col-xs-4 col-sm-2">
+                <ul class="list-unstyled">
+                    <li><a href="/about">关于我们</a></li>
+                    <li><a href="/term">服务条款</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<!-- jQuery -->
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Tether -->
+<script src="//cdn.bootcss.com/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/app.js "></script>
+
+
+</div>
+
+</body>
+</html>

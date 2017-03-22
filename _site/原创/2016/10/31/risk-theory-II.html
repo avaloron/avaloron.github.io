@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="yllN1-yI9Sea6VZrMGMiGXA-Nf7fpL_z0yXO5E9CFmw" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="雅文龙金融
+">
+    <meta name="keyword"  content="">
+
+    <!--Open Graph Title-->
+    <meta content="雅闻龙" property="og:site_name">
+    
+      <meta content="风险论（二)" property="og:title">
+    
+    
+      <meta content="article" property="og:type">
+    
+    
+      <meta content="雅文龙金融
+" property="og:description">
+    
+    
+      <meta content="http://localhost:4000/%E5%8E%9F%E5%88%9B/2016/10/31/risk-theory-II.html" property="og:url">
+    
+    
+      <meta content="2016-10-31T08:52:59-04:00" property="article:published_time">
+      <meta content="http://localhost:4000/about/" property="article:author">
+    
+    
+      <meta content="/img/logo-high-resolution.png" property="og:image">
+    
+    
+      
+      <meta content="原创" property="article:section">
+      
+    
+    
+      
+    
+
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <title>风险论（二) - </title>
+
+    <link rel="canonical" href="http://localhost:4000/%E5%8E%9F%E5%88%9B/2016/10/31/risk-theory-II.html">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/app.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/assets/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container partition">
+<nav class="navbar navbar-toggleable-md navbar-light">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="/">雅闻龙</a>
+  <a class="navbar-brand" href="/"><img src="http://boostss.nos-eastchina1.126.net/ava%2Flogo.png"></a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav nav-pills ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="/">首页</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/blog">博客</a>
+      </li>
+	        <li class="nav-item">
+        <a class="nav-link" href="/about">关于我们</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="/download">资料下载</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+
+       <div class="row" style="margin-top: 2em">
+        <div class="container page-container">
+
+           <h1 class="page-title">风险论（二)</h1>
+
+          <p>上文提到市场的核心变量是:回报+风险。收益来的真真实实，但是，风险却难以把握。在市场上有人赚钱，就自然有人亏钱。股价有暴涨的几率，自然也有暴跌的几率。那么如何量化，确定涨跌几率呢？让我们来看看几个备选项。</p>
+
+<p>波动性（volatility），似乎是最直接的选择，也是最早量化的风险指标。这个量描述了股票价格在期望收益值周围波动的平均幅度。显而易见，当然波动幅度越小，这只股票越安全，或则说投资风险越小，反之，则意味风险较大。然而这个量难以承担合理估算风险的重任。首先，在具体操作中，回测时间段的选取很大程度上能影响到波动性的大小。就算对同一只股票，3-4年筑底市场的波动性和半年时间的疯牛转病熊，算出来的波动性肯定不一样。其次，这个量本身就是时间的函数。换句话说，今天波动性小，不代表明天依然小。所以其独立描述风险能力十分有限。</p>
+
+<p>风险价值（VaR），这个量描述了资产在给定置信区间内可能导致的最大预期损失。举个例子，一天5%一万的风险价值意味着，这个资产组合一天有0.05的几率亏损1万块钱。所以，通俗的说，可以预见每经历20天的交易，这个资产组合会出现一天的亏损大于或等于1万块钱。 因为，风险价值是构建于大量历史数据和分位数判定的基础上，这个量能更为稳定和准确的描述暗藏的风险。直白的说，假如某只股票若干年来出现过若干次严重的暴跌，那么即使这几个月以来凤平浪尽，或则一路飙升，或则缓缓下跌，几乎都不会改变它再次暴跌的风险几率。</p>
+
+<p>事实上自从上世纪90年代，J.P.Morgan发表并推广使用这个指标以后，风险价值已经被广泛接受。 现今，主要的银行和投资机构，都将风险价值计入自己的财务报表当中。在最新的巴塞尔资本协定（Basel II Accord）中，风险价值是国际金融界推荐的描述市场风险的首选指标。</p>
+
+<p>但是，风险价值依然有其不足之处。一个简单的例子：A，B两只不同的股票，损失1万的几率都是5%，可是A股票有1%的几率损失10万，B股票却有1%的几率损失20万。这两只股票的风险一样高吗？如果按照上述定义，都按照5%处的几率来看，风险资产都是一样的，于是风险相同。可是按照1%处的几率来看，风险资产当然是越小的越好。于是，实际操作中，我们又陷入了另一个困境，选择哪一个几率值处的可能损失来计算风险资产呢？那么当然是选1%几率的可能损失值了呀，于是看起来A股票要优于B股票。事实远非如此！别忘了，我们入市可是来赚钱的，没人冲着亏钱来着（同时参看本文第一段的第一句话）。</p>
+
+<p>那么回到最初的问题，到底量化什么指标更为合理呢？下一篇文章，我将介绍另一个更好的指标量：平均尾端跌幅（CVaR），以及它同统计学的关系。更重要的一点是它抓住了最关键的因素，让我们能将风险与收益调和起来，只用一个量化指标，但对资产组合的优劣做更准确的描述。</p>
+
+
+
+          </div>
+    </div>
+<!-- Footer -->
+<footer class="mb-autos">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-3">
+                <a class="navbar-brand" href="#">Avaloron 雅闻龙</a>
+                <p class="copyright text-muted">
+                    &copy; 2017 雅闻龙
+                </p>
+            </div>
+
+            <div class="col-xs-4 col-sm-2">
+                <ul class="list-unstyled">
+                    <li><a href="/about">关于我们</a></li>
+                    <li><a href="/term">服务条款</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+<!-- jQuery -->
+<script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Tether -->
+<script src="//cdn.bootcss.com/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="//cdn.bootcss.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  </body>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/app.js "></script>
+
+
+</div>
+
+</body>
+</html>
