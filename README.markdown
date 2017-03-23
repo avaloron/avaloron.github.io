@@ -16,14 +16,25 @@
 * ruby 2.0+
 
 ### install dependences
+First, change your current working directory to the root directory of this source code.
+
 ```
-gem install bundler # if you haven't done so
+gem install nokogiri -v '1.6.8.1' # if you haven't done so
+# for mac configuration
+# bundle config build.nokogiri --use-system-libraries
+gem install bundler # if you haven't got bundler installed
 bundle install
 ```
-### bring up your local web 
+### bring up your local web
 ```
 bundle exec jekyll server
 ```
+### preview all your changes (debug) locally
+
+open local web browser (i.e. Chrome, Safari and Firefox, etc.)
+
+insert "http://localhost:4000/" to the browser
+
 # 版权
 
 每位作者保留自己作品的所有版权
