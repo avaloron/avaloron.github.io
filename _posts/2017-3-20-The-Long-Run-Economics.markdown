@@ -5,15 +5,10 @@ date:   2017-3-20 20:52:59 -0400
 categories: 翻译
 author: "Tyler Durden ／ ZeroHedge.com (编译: 何绪纲)"
 tags: 长期经济发展 债务 政府违约 GDP 货币贬值 经济衰退 经济刺激
+front_image_url: http://hexugang.us-ca.ufileos.com/davis_id_3-1.jpg
 ---
 
-通过加大政府财政支出来刺激经济已成为各国争相采用的做法。但是这种做法对一国经济长期的影响却并不为人熟知。本文试图通过详实的数据和对墨西哥的实地考察来回答这个问题，值得我们认真思考。
-
-原文链接 [The Long Run Economics Of Debt Based Stimulus](http://www.zerohedge.com/news/2017-03-18/long-run-economics-debt-based-stimulus)
-
-
-![](http://hexugang.us-ca.ufileos.com/davis_id_3-1.jpg)
-
+>通过加大政府财政支出来刺激经济已成为各国争相采用的做法。但是这种做法对一国经济长期的影响却并不为人熟知。本文试图通过详实的数据和对墨西哥的实地考察来回答这个问题，值得我们认真思考。
 
 **增长vs飙升**
 
@@ -70,3 +65,5 @@ tags: 长期经济发展 债务 政府违约 GDP 货币贬值 经济衰退 经�
 *Teotihuacán—从月亮金字塔鸟瞰古城遗迹。*
 
 在公元前450年Teotihuacán发展到它的巅峰，它是哥伦比亚以北，美洲最大的城市，这里的人口达到15万人。可是到公元6世纪，人口数量开始下降，城市在7世纪到8世纪之间逐渐消亡。并没有人确切知道发生了什么。有个理论是说当地遭遇到了持续的干旱，另一种说法是发生了内乱。也许，只是发生了某一件历史长河中的大概率事件。我们贴近地面倾听，我们观望四周，但是城市的灵魂并未回答，他也无需赘言。因为，我们正亲身经历着历史的循环。
+
+原文链接 [The Long Run Economics Of Debt Based Stimulus](http://www.zerohedge.com/news/2017-03-18/long-run-economics-debt-based-stimulus)
