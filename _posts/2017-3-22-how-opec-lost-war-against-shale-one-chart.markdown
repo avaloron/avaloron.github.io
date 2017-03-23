@@ -8,12 +8,6 @@ Chinese translator: 胡牧原
 tags: 页岩油 OPEC 减产 紧缩 美联储 信贷 宽松 加息
 ---
 
-
-
-原文链接 [ How OPEC Lost The War Against Shale, In One Chart](http://www.zerohedge.com/news/2017-03-21/breslow-memo-traders-fed-making-they-go-along)
-
-
-
 ![](http://www.zerohedge.com/sites/default/files/images/user5/imageroot/2017/03/20/oil%20cost%20curve.jpg)
 
 
@@ -53,4 +47,7 @@ tags: 页岩油 OPEC 减产 紧缩 美联储 信贷 宽松 加息
 因此，信贷紧缩的环境将会最终导致这种结构性的低价失去支撑。然而，通过近期美国联邦公开市场委员会(FOMC)近期的言论判断，这种情况短期之内不会发生。
 
 这就意味着，沙特将无路可走，被迫选择削减产量，抬高油价，放任页岩油的市场入侵；抑或是回到老路上去，将价格压得更低。但在这一过程中，沙特政府收入崩溃，可能会引发另一场预算危机。
+
+
+原文链接 [ How OPEC Lost The War Against Shale, In One Chart](http://www.zerohedge.com/news/2017-03-21/breslow-memo-traders-fed-making-they-go-along)
 
