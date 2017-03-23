@@ -7,8 +7,6 @@ author: "Tyler Durden ／ ZeroHedge.com (编译: 吴澄剑)"
 origin_url: http://zerohedge.com/news/2017-03-16/not-reaction-fed-wanted-goldman-warns-yellen-has-lost-control-market
 ---
 
-原文链接 ["This Is Not The Reaction The Fed Wanted": Goldman Warns Yellen Has Lost Control Of The Market](http://zerohedge.com/news/2017-03-16/not-reaction-fed-wanted-goldman-warns-yellen-has-lost-control-market)
-
 随着耶伦的“鸽派”加息，全球股市飙升，股票期货大幅高开带动纳指接近6000点。而高盛的首席经济学家 Jan Hatzius 的警告却引起了我们的注意：市场过分解读了联储的声明，这种“鸽派惊喜”的反应完全不是美联储所期望的。
 
 他特别指出，根据各资产的联动价格涨幅，市场竟然给出了自2000年以来出除金融危机外第三大的强烈反应。
@@ -35,5 +33,4 @@ origin_url: http://zerohedge.com/news/2017-03-16/not-reaction-fed-wanted-goldman
 
 当然，如果2017年的头两个，三个或四个加息的都如此次。充斥着数万亿的过剩流动性的金融市场，将简单地采取美联储的下一个紧缩作为宽松的指标，并将风险资产推至甚至更离谱的高点。
 
-
-
+原文链接 ["This Is Not The Reaction The Fed Wanted": Goldman Warns Yellen Has Lost Control Of The Market](http://zerohedge.com/news/2017-03-16/not-reaction-fed-wanted-goldman-warns-yellen-has-lost-control-market)
