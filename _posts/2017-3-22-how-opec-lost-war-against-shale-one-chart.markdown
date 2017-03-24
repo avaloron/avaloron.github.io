@@ -6,12 +6,13 @@ categories: 编译
 author: "Tyler Durden ／ ZeroHedge.com 授权翻译，谢绝转载 (编译: 胡牧原)"
 translator: 胡牧原
 tags: 页岩油 OPEC 减产 紧缩 美联储 信贷 宽松 加息
+front_image_url: http://www.zerohedge.com/sites/default/files/images/user5/imageroot/2017/03/20/oil%20cost%20curve.jpg
+excerpt: 沙特与美国围绕页岩气进行了多年的拉锯，而从现在的情况来看，美国利用金融市场的操作，终于在几年后扭转了双方力量对比，沙特或成为最大输家。
 ---
 
-沙特与美国围绕页岩气进行了多年的拉锯，而从现在的情况来看，美国利用金融市场的操作，终于在几年后扭转了双方力量对比，沙特或成为最大输家。
-
-
-![](http://www.zerohedge.com/sites/default/files/images/user5/imageroot/2017/03/20/oil%20cost%20curve.jpg)
+> 沙特与美国围绕页岩气进行了多年的拉锯，而从现在的情况来看，美国利用金融市场的操作，终于在几年后扭转了双方力量对比，沙特或成为最大输家。
+>
+> by 胡牧原
 
 
 根据挪威雷斯塔能源公司三月初提供的图标显示,仅在过去3年,页岩油的井口保本价格从平均80美元暴跌值35美元。从中可以看出，科技的进步已经使得美国页岩油的生产成本爆降，因而大部分美国页岩油生产地区的总体单井保本价已大幅降低。
