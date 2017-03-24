@@ -14,12 +14,9 @@ layout: default
 
 	<div class="card">
 	  <div class="card-block">
-		<h2 class="card-title" href="{{ post.url | relative_url }}">{{ post.title | escape }}</h4>
+		<h2 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
 		<p class="card-text">发布日期：{{ post.date | date: "%b %-d, %Y" }}   作者： {{ post.author}}</p>
-		<a href="{{ post.url | relative_url }}" class="btn btn-outline-info">点击阅读</a>
-
-		{{ post.excerpt }}
-
+		<p>{{ post.excerpt }}</p>
 	  </div>
 	</div>
 	<br>
