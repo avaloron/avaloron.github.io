@@ -3,7 +3,7 @@ layout: post
 title:  "一张图搞懂：页岩油如何击败OPEC"
 date:   2017-3-22 18:00:00 +0800
 categories: 编译
-author: Tyler Durden
+author: "Tyler Durden ／ ZeroHedge.com 授权翻译，谢绝转载 (编译: 胡牧原)"
 translator: 胡牧原
 tags: 页岩油 OPEC 减产 紧缩 美联储 信贷 宽松 加息
 ---
