@@ -8,10 +8,32 @@
 * 提交pull request, @ 相关编辑来审稿
 * 通过审核后，你的文章便收录在Avaloron的官方网站了。
 
-# 网站开发流程
+# 网站开发流程 development
 
 网站开发请在dev分支内进行，我们会定期merge稳定版本到master
 
+### system requirement
+* ruby 2.0+
+
+### install dependences
+First, change your current working directory to the root directory of this source code.
+
+```
+gem install nokogiri -v '1.6.8.1' # if you haven't done so
+# for mac configuration
+# bundle config build.nokogiri --use-system-libraries
+gem install bundler # if you haven't got bundler installed
+bundle install
+```
+### bring up your local web
+```
+bundle exec jekyll server
+```
+### preview all your changes (debug) locally
+
+open local web browser (i.e. Chrome, Safari and Firefox, etc.)
+
+insert "http://localhost:4000/" to the browser
 
 # 版权
 

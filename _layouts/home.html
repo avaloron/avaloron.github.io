@@ -2,8 +2,30 @@
 layout: default
 ---
 
-<br>
-<br>
-<br>
+<div class="home">
 
-test
+  <h1 class="page-heading">投资分析</h1>
+  <br>
+  <br>
+  <br>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+
+	<div class="card">
+	  <div class="card-block">
+		<h2 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+		<p class="card-text">发布日期：{{ post.date | date: "%b %-d, %Y" }}   作者： {{ post.author}}</p>
+		<p>{{ post.excerpt }}</p>
+	  </div>
+	</div>
+	<br>
+    <br>
+
+
+    {% endfor %}
+  </ul>
+
+
+
+</div>
