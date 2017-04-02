@@ -4,15 +4,15 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">投资分析</h1>
-  <br>
-  <br>
-  <br>
-
   <ul class="post-list">
     {% for post in site.posts %}
 
 	<div class="card">
+    <a href="{{ post.url | relative_url }}">{% if post.front_image_url %}
+      <img src="{{ post.front_image_url }}">
+    {% else %}
+      <img src="{{ site.front_image_url }}">
+    {% endif %}</a>
 	  <div class="card-block">
 		<h2 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
 		<p class="card-text">发布日期：{{ post.date | date: "%b %-d, %Y" }}   作者： {{ post.author}}</p>

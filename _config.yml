@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.avaloron.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: avaloron
 # github_username:  jekyll
+front_image_url: "/assets/img/LOGO.png"
 
 # Build settings
 markdown: kramdown
