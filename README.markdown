@@ -10,16 +10,16 @@
 
 # 网站开发流程 development
 
-网站开发请在dev分支内进行，我们会定期merge稳定版本到master
+开发安装常规流程: Make a pull request to the master branch directly.
 
 ### system requirement
-* ruby 2.0+
+* ruby 2.1+
 
 ### install dependences
 First, change your current working directory to the root directory of this source code.
 
 ```
-gem install nokogiri -v '1.6.8.1' # if you haven't done so
+gem install nokogiri -v '1.8.0' # if you haven't done so
 # for mac configuration
 # bundle config build.nokogiri --use-system-libraries
 gem install bundler # if you haven't got bundler installed
